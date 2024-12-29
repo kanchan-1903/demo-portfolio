@@ -1,0 +1,197 @@
+<style><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(2, 2, 49);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background-color: rgb(7, 4, 70);
+}
+
+.banner {
+    padding: 20px;
+    flex-direction: column;
+}
+
+/* From Uiverse.io by cssbuttons-io */
+button {
+    align-items: center;
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:active,
+button:hover {
+    outline: 0;
+}
+
+button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+button:hover span {
+    background: none;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    transition: 0.5s;
+    background: #048d18;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 5px;
+}
+
+/* nav ul{
+            display: flex;
+            justify-content: center;
+        } */
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+}
+
+nav ul li a:hover {
+    color:rgb(251, 251, 251);
+    font-size: 1.1rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstSection>div {
+    width: 39%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+}
+
+.rightSection img {
+    width: 80%;
+    margin: 47px 0;
+}
+
+.purple {
+    color: rgb(39, 39, 151);
+    ;
+}
+
+#element {
+    color: rgb(39, 39, 151);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.socilmedia {
+    display: inline-block;
+    /* Ensures the container fits the content */
+    background-color: #d7bfec;
+    /* Background color */
+    border-radius: 50%;
+    /* Makes the background round */
+    padding: 5px;
+    height: 22px;
+
+}
+
+/* changes by Me */
+
+.secondSection div {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    /* Adds spacing between buttons */
+
+}
+
+.secondSection div:first-child {
+    margin-bottom: 40px;
+    /* Increases the space below the buttons */
+}
+
+.button2 {
+    
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center;    /* Centers the content vertically */
+    width: auto;            /* Adjust width based on content */
+    height: auto;           /* Adjust height based on content */
+    padding: 10px 20px;     /* Add padding for better appearance */
+    text-decoration: none;  /* Remove underline from button */
+    
+}
+
+.button2 .text a {
+    text-decoration: none;  /* Removes underline from link */
+    color: inherit;         /* Ensures the link inherits button text color */
+    display: block;         /* Ensures proper alignment inside the button */
+    width: 100%;            /* Takes full width for centering */
+    text-align: center;     /* Centers text horizontally */
+    
+}
+
+.button2 span {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;    /* Centers content vertically */
+    width: 100%;            /* Makes span take full width of the button */
+    height: 100%;           /* Makes span take full height of the button */
+}
+
+
+</style>
